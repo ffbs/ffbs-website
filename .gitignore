@@ -1,0 +1,17 @@
+*_bak
+*DS_Store
+# ignoring from *.template generated files
+anleitung-backbone.html
+anleitung-business.html
+anleitung-starter.html
+auswahl.html
+blog.html
+eintragen.html
+faq.html
+impressum.html
+index.html
+irc.html
+karte.html
+kontakt.html
+plot.html
+willkommen.html

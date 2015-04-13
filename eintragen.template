@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<!-- Navigation -->
+<div class="container">
+  <div class="page-header">
+		<h1>Router eintragen</h1>
+  </div>
+	<div class="row">
+		<div class="col-lg-6">
+			<div id="alert" class="alert" style="display:none"></div>
+			<p>Du bist der <a href="https://wiki.freifunk-bs.de/index.php?title=Einrichtung">Anleitung</a> gefolgt und
+			hast einen Schlüssel von deinem Router bekommen? Dann trage hier deinen Schlüssel ein:</p>
+			<form class="form" id="keyform" method="POST" action="/newkey">
+				<fieldset>
+					<textarea id="key" name="key" cols="50" rows="2" class="span6"></textarea><br><br>
+					<input type="submit" value="absenden" class="btn btn-primary pull-right">
+				</fieldset>
+			</form>
+		</div>
+		<div class="col-lg-6">
+			<p>Die Schlüsselinformationen sollten so eingetragen werden:</p>
+			<!-- totally a random key... -->
+			<pre># Beispiel # beispiel@freifunk-bs.de<br>70e9157d98c9780c27ea17e95e27885997cf321225050f397f0fa82ac1733639</pre>
+		</div>
+	</div>
+</div>
+{{footer}}
+<script type="text/javascript">
+$(function () {
+	$('#keyform').submit(function () {
+		$.post('/newkey', {'key':$('#key').val()}, function (ans) {
+			$('#alert').hide(500, function() {
+				if (ans.success) {
+					$('#alert').removeClass('alert-danger').addClass('alert-success').text(ans.message)
+				} else {
+					$('#alert').removeClass('alert-success').addClass('alert-danger').text(ans.message)
+				}
+				$('#alert').show(500)
+			});
+		}, 'json')
+	return false
+	});
+});
+</script>
+</body>

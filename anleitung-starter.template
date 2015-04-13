@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<div class="container">
+	<div class="page-header">
+		<h1>TP-Link WR841N(D)</h1>
+ 	</div>
+	<div class="row">
+	  <div class="col-lg-12 col-sm-12">
+   		<p>Du hast dir selber einen Router gekauft und möchest bei Freifunk mitmachen. <br>
+       	Die einfachst Variante ist es einen TP-Link TL-WR841N oder TL-WR841ND.<br>
+       	Wenn du noch keinen Router hast kannst du diesen z.B. bei Amazon beziehen.<br>
+       	Der TL-WR841N hat 2 feste Antennen. Beim Modell TL-WR841ND sind die Antennen abschraubbar und es lassen sich somit z.B. Outdoor Antennen montieren.<br>
+       	Um diesen Router für Freifunk zu verwenden musst ihn erst mit der Freifunk <a href="https://firmware.freifunk-bs.de">Firmware</a> versehen. Wähle dazu &quot;Stabile Version&quot; und suche links nach &quot;tp-link-tl-wr841n-nd&quot;</p>
+        <div class="col-md-12 panel">
+    		<img class="img-responsive center-block" src="assets/images/firmware.jpg" alt="firmware.freifunk-bs.de">
+      	</div>
+      	<div class="col-md-12 panel">
+     		<img class="img-responsive center-block" src="assets/images/fw841.jpg" alt="tp-link-tl-wr841n-nd">
+        </div>
+        <p>Hier musst du nun die zu deinem Router passende Version auswählen und herunter laden. Die Version deines Routers findest du auf der Unterseite deines Routers.</p>
+        <div class="col-md-12 panel licensed-image">
+  	 		<img class="img-responsive center-block"  src="assets/images/version.jpg" height="271" alt="Version">
+         <div class="license">
+           <p class="license-inner">CC-BY-SA 3.0 fototeddy</p>
+         </div>
+        </div>
+       	<p>Starte nun deinen Router und verbinde ihn mit deinem PC. Unter <a href="http://192.168.0.1">192.168.0.1</a> kannst du dich auf deinem Router einloggen (Benutzername: admin Passwort: admin). Hier wählst du links unter &quot;System Tools&quot; und dann &quot;Firmware Upgrade&quot; aus.</p>
+         <div class="col-md-12 panel">
+         	<img class="img-responsive center-block"  src="assets/images/sysupgrade.png" width="182" height="292" alt="TP-Link System Upgrade">
+         </div>
+         <p>Jetzt nur noch die Firmwaredatei auswählen und das Upgrade starten.</p>
+         <div class="col-md-12 panel">
+         	<img class="img-responsive center-block" src="assets/images/upgrade.png" width="634" height="203" alt="Upgrade Button">
+         </div>
+         <p>Dein Router installiert nun die Freifunk Firmware und startet danach automatisch neu.<br>
+          Beim ersten Start mit der Freifunk Firmware lädt dein Router einen Konfigurationsmodus. Dein Router ist nun wieder unter <a href="http://192.168.1.1">192.168.1.1</a> zu erreichen.<br>
+          	In der Weboberfläche kannst du deinem Freifunk Router einen Namen geben.</p>
+          <div class="col-md-12 panel">
+          	<img class="img-responsive center-block" src="assets/images/ffname.png" width="873" height="386" alt="LuCi Knotenname">
+          </div>
+          <p>Wenn du deine Internetverbindung per Freifunk teilen möchtest, muss du hier einen Haken setzen. Du kannst auch festlegen wieviel Bandbreit für Freifunk zur Verfügung steht.</p>
+          <div class="col-md-12 panel">
+          	<img class="img-responsive center-block" src="assets/images/ffshare.png" width="873" height="448" alt="LuCi Share">
+          </div>
+          <p>Wenn dein Freifunk Router auf der Karte erscheinen soll. Musst du hier deine <a href="http://gpso.de/maps/">Koordinaten</a> eintragen.</p>
+          <div class="col-md-12 panel">
+          	<img class="img-responsive center-block" src="assets/images/ffkoord.png" width="873" height="368" alt="LuCi Map">
+          </div>
+          <p>Abschließen trägts du noch eine Kontakt E-Mail Adresse ein und klickst auf &quot;Speichern &amp; Neustarten&quot;.</p>
+          <div class="col-md-12 panel">
+          	<img class="img-responsive center-block" src="assets/images/ffmail.png" width="873" height="322" alt="LuCi Mail">
+          </div>
+          <p>Verbinde nun den blauen WAN Port des Routers mit deinem Internetrouter und genieße braunschweig.freifunk.net</p>
+          <div class="col-md-5 panel  licensed-image">
+          	<img class="img-responsive  center-block" src="assets/images/wan.jpg" alt="WAN">
+            <div class="license">
+              <p class="license-inner">CC-BY-SA 3.0 fototeddy</p>
+            </div>
+          </div>
+          <div class="col-md-5 panel">
+
+            <img class="img-responsive  center-block" src="assets/images/ssid.jpg" alt="FF ssid">
+            
+          </div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 col-sm-12">
+   		<p>Am besten stellst du deinen Freifunk Router nun noch so auf, dass er möglichst gut von anderen erreicht werden kann. </p>
+      		<div class="col-md-12 panel  licensed-image">
+      			<img class="img-responsive center-block" src="assets/images/fenster.jpg" alt="FFfenster">
+            <div class="license">
+              <p class="license-inner">CC-BY-SA 3.0 fototeddy</p>
+            </div>
+      		</div>
+   	  </div>
+	</div>
+</div>
+{{footer}}
+</body>

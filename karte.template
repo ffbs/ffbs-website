@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<div class="container">
+	<link rel="stylesheet" href="/css/ffbs.css">
+	<div id="mapdiv"></div>
+</div>
+{{footer}}
+<script src="/js/OpenLayers.js"></script>
+<script type="text/javascript" src="/js/ffbs_layer.js"></script>
+</body>

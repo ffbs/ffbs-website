@@ -1,0 +1,30 @@
+html {
+	height: 94%;
+}
+#mapdiv,body,.container {
+	height: 100%;
+}
+.navbar {
+	margin-bottom: 0px !important;
+}
+.olPopup {
+	font-family: sans-serif;
+	border-radius: 25px;
+	border: 2px solid !important;
+	height: 110px !important;
+	color: #000 !important;
+	line-height: 1 !important;
+	font-weight: normal;
+	font-size: 14px;
+}
+.olPopupContent h2 {
+	margin: 10px 0px;
+	font-size: 110%;
+	font-weight: bold;
+	color: #000;
+}
+.olPopupContent small {
+	line-height: 200%;
+	overflow-x: scroll;
+  white-space: nowrap;
+}

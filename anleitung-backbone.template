@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<div class="container">
+  hier anleitung schreiben
+</div>
+{{footer}}
+</body>

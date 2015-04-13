@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<div class="container">
+  <div class="page-header">
+    <h1>Kontakt</h1>
+  </div>
+  <div class="row" id="kontakt">
+    <div class="col-md-6">
+			<div class="panel panel-default">
+				<form class="form-horizontal" method="POST" action="/contact">
+					<fieldset>
+						<legend class="text-center header">Kontaktiere uns</legend>
+						<div class="form-group">
+							<div class="col-md-10 col-md-offset-1">
+								<b>E-Mail:</b> braunschweig (at) freifunk . net &nbsp; (Mailingliste)<br>
+								<b>Twitter:</b> <a href="https://twitter.com/freifunk_bs">@freifunk_bs</a><br>
+								<b>IRC:</b> <a href="irc://chat.freenode.net/freifunk-bs">#freifunk-bs@freenode.net</a> (<a href="https://webchat.freenode.net/?channels=freifunk-bs">Webchat</a>)<br>
+								<b>Mailingliste:</b> <a href="http://lists.freifunk.net/mailman/listinfo/braunschweig-freifunk.net">Eintragen</a><br>
+							</div>
+						</div>
+						<h4 class="text-center">Formular</h4>
+						<div class="form-group">
+							<div class="col-md-10 col-md-offset-1">
+								Email Adresse:
+								<input name="email" type="text" placeholder="Email Adresse" class="form-control">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-10 col-md-offset-1">
+								Nachricht:
+								<textarea class="form-control" name="message" placeholder="Deine Nachricht" rows="7"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12 text-center">
+								<button type="submit" class="btn btn-primary btn-lg">Nachricht Abschicken</button>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+      </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+					<legend class="text-center header">Unser Büro</legend>
+          <div class="panel-body text-center">
+            <h4>Adresse</h4>
+
+            Stratum 0 e.V. <br>
+            Freifunk Braunschweig<br>
+            Hamburger Straße 237A<br>
+            38114 Braunschweig<br>
+
+            <hr>
+            <iframe class="text-center" width="100%" scrolling="no" height="300" frameborder="0" src="//www.openstreetmap.org/export/embed.html?bbox=10.518212914466858%2C52.27685277747112%2C10.524006485939026%2C52.27966553459799&amp;marker=52.278259178349444%2C10.521109700202942" marginwidth="0" marginheight="0"></iframe>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+{{footer}}
+</body>

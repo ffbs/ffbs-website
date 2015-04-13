@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<!-- Navigation -->
+<div class="container">
+  <div class="page-header">
+    <h1>Alternativen
+      <small>3 Arten des Mitmachens</small>
+    </h1>
+  </div>
+  <div class="container">
+    <div class="row pricing-table">
+      <div class="col-xs-12 col-md-4">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              Starter Package
+            </h3>
+          </div>
+          <div class="panel-body">
+            <div class="the-price">
+              <h1>
+                TP-Link WR841N(D)
+              </h1>
+              <small><em>für wenig Clients</em></small>
+            </div>
+            <table class="table">
+              <tr class="active">
+                <td>
+                  Wireless Speed ca. 18 MBit/s
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Frequenz 2,4GHz
+                </td>
+              </tr>
+              <tr class="active">
+                <td>
+                  Antennen 2
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="panel-footer">
+            <a href="/anleitung-starter.html" class="btn btn-info btn-sm" role="button">Mitmachen</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              Business Package
+            </h3>
+          </div>
+          <div class="panel-body">
+            <div class="the-price">
+              <h1>
+                TP-Link WDR4300
+              </h1>
+              <small><em>Für optimale Abdeckung</em></small>
+            </div>
+            <table class="table">
+              <tr class="active">
+                <td>
+                  Wireless Speed ca. <b>40</b> MBit/s
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Frequenz 2,4GHz <b>und 5,0GHz</b>
+                </td>
+              </tr>
+              <tr class="active">
+                <td>
+                  Antennen <b>3</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="panel-footer">
+            <a href="/anleitung-business.html" class="btn btn-success btn-sm" role="button">Mitmachen</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+				<!--
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              Backbone Package
+            </h3>
+          </div>
+          <div class="panel-body">
+            <div class="the-price">
+              <h1>
+                Ubiquiti  PowerBeam
+              </h1>
+              <small><em>Für die Verbindung mit anderen Punkten</em></small>
+            </div>
+            <table class="table">
+              <tr class="active">
+                <td>
+                  Wireless Speed ca. <b>450</b> MBit/s
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Frequenz <b>5,0GHz</b>
+                </td>
+              </tr>
+              <tr class="active">
+                <td>
+                  Range <b>25+ km</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Hoch verschlüsselte Verbindung
+                </td>
+              </tr>
+              <tr class="active">
+                <td>
+                  Gigabit Lan
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="panel-footer">
+            <a href="/anleitung-backbone.html" class="btn btn-primary btn-sm" role="button">Backbone Aufbauen</a>
+          </div>
+        </div>
+				-->
+      </div>
+    </div>
+  </div>
+</div>
+{{footer}}
+</body>

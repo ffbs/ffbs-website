@@ -1,0 +1,55 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Freifunk Braunschweig</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li>
+        <a href="/">Hauptseite</a>
+        </li>
+        <li>
+        <a href="//wiki.freifunk-bs.de/">Wiki</a>
+        </li>
+        <li>
+        <a href="/blog/">Blog</a>
+        </li>
+        <li>
+        <a href="/faq.html">FAQ</a>
+        </li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="/karte.html">Karte <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/karte.html#10/52.2645/10.522">Alle</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/karte.html#13/52.263/10.5229">Braunschweig</a></li>
+          <li role="presentation"><a role="menuitem" tabindex="-1" href="/karte.html#14/52.2301/11.0099">Helmstedt</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="//map.freifunk-bs.de">Graph</a></li>
+        </ul>
+        </li>
+        <li>
+        <a href="/eintragen.html">Router eintragen</a>
+        </li>
+        <li>
+        <a href="https://firmware.freifunk-bs.de">Firmware</a>
+        </li>
+        <li>
+        <a href="/kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+      <ul class="nav pull-right navbar-nav">
+        <li><a href="/plot.html" title="Statistik"><span id="nodecount">?</span> Router und <span id="clientcount">?</span> Clients aktiv</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<div class="container">
+  <script type="text/javascript" src="/js/dygraph-combined.js"></script>
+  <div class="col-md-8">
+    <div class="row">
+			<div class="page-header">
+				<h1>Zeitlicher Verlauf</h1>
+			</div>
+      <p>
+      Auf dieser Unterseite wird die zeitliche Entwicklung des Freifunk Braunschweig aufgezeigt. Es stehen die folgenden Darstellungen zur Verf&uuml;gung:
+      <ul>
+        <li>Verbundene Clients der letzten zehn Tage<br>
+        Diese Darstellung zeigt die gesch&auml;tzte Anzahl, der mit dem Freifunk Braunschweig verbundenen Clients. Die reale Zahl an Clients wird wahrscheinlich leicht dar&uuml;ber liegen. </li>
+        <li>Aktive Router der letzten zehn Tage<br>
+        Diese Darstellung zeigt die Anazahl der zu einem Zeitpunkt - direkt oder &uuml;ber das Mesh - mit dem Freifunk-Netz verbundenen Router. Dar&uuml;ber hinaus wird die Zahl der Router mit aktivem Auto-Update ausgegeben.</li>
+      </ul>
+      </p>
+      <h2>Clients der letzten zehn Tage</h2>
+      <p>
+      <div id="clientsplot" style="width:95%; height400px"></div>
+      <script type="text/javascript">
+g2 = new Dygraph(
+    document.getElementById("clientsplot"),
+    "/clients.csv", // path to CSV file
+    {
+xValueFormatter: Dygraph.dateString_,
+xTicker: Dygraph.dateTicker,
+digitsAfterDecimal: 1,
+labelsKMB: true,
+title: 'Gesch&auml;tzte Clients',
+xlabel: 'Zeitpunkt [UTC]',
+ylabel: 'Clients' 
+}          // options
+);
+      </script>
+      </p>
+      <h2>Router der letzten zehn Tage</h2>
+      <p>
+      <div id="routerplot" style="width:95%; height400px"></div>
+      <script type="text/javascript">
+g2 = new Dygraph(
+    document.getElementById("routerplot"),
+    "/router.csv", // path to CSV file
+    {
+xValueFormatter: Dygraph.dateString_,
+xTicker: Dygraph.dateTicker,
+digitsAfterDecimal: 1,
+labelsKMB: true,
+title: 'Verbundene Router',
+xlabel: 'Zeitpunkt [UTC]',
+ylabel: 'Router',
+connectSeparatedPoints: true,
+legend: "mouseover",
+labelsSeparateLines: true 
+}          // options
+);
+      </script>
+      </p>  
+    </div>
+  </div>
+</div>
+{{footer}}
+</body>

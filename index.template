@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<div class="container">
+  <!-- Heading Row -->
+  <div class="row">
+    <div class="col-md-8">
+      <img class="img-responsive img-rounded" src="/assets/images/Logo_Freifunk_Braunschweig.svg" alt="">
+    </div>
+    <div class="col-md-4">
+      <h1>Für ein freies Netz</h1>
+      <p>
+      Das Projekt Freifunk Braunschweig baut ein regionales Datennetz mit WLAN-Geräten, den sogenannten Knoten, auf. Die Nutzung ist dabei frei von Kosten und Registrierung sowie Erfassung von personenbezogenen Informationen.
+      </p>
+      <a class="btn btn-primary btn-lg btn-block" href="/auswahl.html">Mach jetzt bei Freifunk mit!</a>
+			<hr>
+			<h1>N&auml;chstes Treffen</h1>
+			<p>
+			Mittwochs ab 19 Uhr im <a href="https://stratum0.org/wiki/Anfahrt" title="Anfahrt">Stratum 0</a>.<br>
+			<!-- Emantor eingefügt am 31.3.2015 -->
+			<!--<font color="#FF0000">Am 1.4.2015 findet kein Treffen statt!</font><br> -->
+			<!-- Ende [Emantor, 31.3.2015] -->
+			Zunächst Freifunk-Sprechstunde für Gäste und Interessierte. Anschließend Technik-Workshop.
+			</p>
+    </div>
+    <!-- /.col-md-4 -->
+  </div>
+  <hr>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="well text-center">
+        <b>Internet, wie es sein sollte. Einfach, unzensiert und für jeden zugänglich. </b>
+      </div>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <hr>
+</div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <i class="fa fa-globe fa-3x"></i>
+      <p>
+      Das Netzwerk kann von jedem genutzt werden, ohne Anmeldung. Und das an immer mehr Orten.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <i class="fa fa-wifi fa-3x"></i>
+      <p>
+      Verbinde dein Gerät einfach per WLAN mit <b>braunschweig.freifunk.net</b>. Dazu brauchst du keine spezielle Software.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <i class="fa fa-child fa-3x"></i>
+      <p>
+      Mach mit bei den Freifunkern und erweitere das Netzwerk mit deinen eigenen Geräten.
+      </p>
+    </div>
+  </div>
+  <hr>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-sm-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">Was ist Freifunk ?</div>
+        <div class="panel-body">
+          Freifunk ist ein Projekt, das versucht ein regionales Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Region ermöglichen. Jedes WLAN-fähige Gerät, also beispielsweise Handy oder Notebook,
+          kann sich mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-md-12">
+      <div class="well text-center">
+        <b>Du möchtest bei dir ein Router aufstellen?</b>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">1. Finde zu uns</h3>
+        </div>
+        <div class="panel-body">
+          <div class="licensed-image">
+						<img class="img-responsive center-block" alt="Bootstrap template" src="/assets/images/stratum0.jpg">
+						<div class="license">
+							<p class="license-inner">CC-BY-SA 3.0 rohieb</p>
+						</div>
+					</div>
+          <iframe class="text-center" width="100%" scrolling="no" height="283" frameborder="0" src="//www.openstreetmap.org/export/embed.html?bbox=10.518212914466858%2C52.27685277747112%2C10.524006485939026%2C52.27966553459799&amp;marker=52.278259178349444%2C10.521109700202942"
+            marginwidth="0" marginheight="0"></iframe>
+          <p>
+					Wir treffen uns Mittwochs ab 19:00 Uhr in den Räumen des <a href="https://stratum0.de">Stratum 0 e.V.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">2. Kaufe dir einen Router</h3>
+        </div>
+        <div class="panel-body">
+					<div class="licensed-image">
+						<img class="img-responsive center-block" src="/assets/images/ffbs_router.png">
+						<div class="license">
+							<p class="license-inner">CC-BY-SA 3.0 rohieb</p>
+						</div>
+          </div>
+          <p>
+          Für 20€ bekommst du bei uns ein Freifunk-Router. <em>(Das kostet er uns auch)</em>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">3. Schließe den Router an</h3>
+        </div>
+        <div class="panel-body">
+					<div class="licensed-image">
+						<img class="img-responsive center-block" alt="Bootstrap template" src="/assets/images/ffbs_anschliessen.png">
+						<div class="license">
+							<p class="license-inner">CC-BY-SA 3.0 rohieb</p>
+						</div>
+          </div>
+          <p>
+          Verbinde den Freifunk-Router am besten mit deinem Internet Router. <em>(Nicht notwendig bei anderen Freifunk-Routern in deiner Nähe)</em>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{footer}}
+</body>
