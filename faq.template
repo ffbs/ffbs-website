@@ -187,7 +187,7 @@
 							<p class="list-group-item-text">AVM hat mit dem Update auf FritzOS 6.x einen Filter auf den Gastzugang gelegt, der die korrekte Funktion deines Freifunk-Routers beeinträchtigt. Folge bitte folgenden Schritten um den Filter für die Nutzung mit einem Freifunk-Router einzurichten:
 							<ol><li>Verbinde dich zu der Weboberfläche deiner FritzBox</li>
                                                         <li>Wechsele in die erweiterte Ansicht, indem du unten auf der Seite auf „Ansicht: Standard” klickst.</li>
-                                                        <li>Navigiere zu Internet > Filter > Zugangsprofile und bearbeite das Profil „Gast”. Dort sollte dann unter gesperrte Netzwerkanwendungen die Option „alles außer Surfen und Mailen” existieren. Dies bitte entfernen, da die VPN-Verbindung (Port 10000) leider davon blockiert wird. Alles andere zu Testzwecken auch. Nun sollte sich der Knoten mit den Gateways wieder verbinden können und ist trotzdem zusätzlich über den Gastzugang virtuell von deinem Heimnetz getrennt.</li></ol></p>
+                                                        <li>Navigiere zu Internet &gt; Filter &gt; Zugangsprofile und bearbeite das Profil „Gast”. Dort sollte dann unter gesperrte Netzwerkanwendungen die Option „alles außer Surfen und Mailen” existieren. Dies bitte entfernen, da die VPN-Verbindung (Port 10000) leider davon blockiert wird (Zu Testzwecken kannst du auch alles andere entfernen). Nun sollte sich der Knoten mit den Gateways wieder verbinden können und ist trotzdem zusätzlich über den Gastzugang virtuell von deinem Heimnetz getrennt.</li></ol></p>
             </span>
             <span class="list-group-item">
               <h4 class="list-group-item-heading">Wie ändere ich den Funkkanal?</h4>
