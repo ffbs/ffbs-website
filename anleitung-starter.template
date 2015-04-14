@@ -9,18 +9,15 @@
  	</div>
 	<div class="row">
 	  <div class="col-lg-12 col-sm-12">
-   		<p>Du hast dir selber einen Router gekauft und möchest bei Freifunk mitmachen. <br>
-       	Die einfachst Variante ist es einen TP-Link TL-WR841N oder TL-WR841ND.<br>
-       	Wenn du noch keinen Router hast kannst du diesen z.B. bei Amazon beziehen.<br>
-       	Der TL-WR841N hat 2 feste Antennen. Beim Modell TL-WR841ND sind die Antennen abschraubbar und es lassen sich somit z.B. Outdoor Antennen montieren.<br>
-       	Um diesen Router für Freifunk zu verwenden musst ihn erst mit der Freifunk <a href="https://firmware.freifunk-bs.de">Firmware</a> versehen. Wähle dazu &quot;Stabile Version&quot; und suche links nach &quot;tp-link-tl-wr841n-nd&quot;</p>
+   		<p>Eine einfache Variante bei dem Freifunk Projekt mitzumachen ist die Anschaffung eines TP-Link-Routers mit der Bezeichnung TL-WR841N oder TL-WR841ND. Diese Geräte können kostengünstig bei Online-Versandhändlern, wie beispielsweise Amazon.com, bestellt werden. Die beiden Modelle unterscheiden sich in der Möglichkeit die Antennen zu ändern. Das Modell TL-WR841N hat 2 feste Antennen, beim Modell TL-WR841ND sind die Antennen abschraubbar was eine Montage von z.B. Outdoor-Antennen ermöglicht.<br><br>
+       	Für einen Betrieb im Freifunk-Netz muss in einem ersten Schritt die <a href="https://firmware.freifunk-bs.de">Freifunk-Firmware</a> auf dem Router installiert werden. Wähle dazu &quot;Stabile Version&quot; und suche in der linken Spalte nach &quot;tp-link-tl-wr841n-nd&quot;</p>
         <div class="col-md-12 panel">
     		<img class="img-responsive center-block" src="assets/images/firmware.jpg" alt="firmware.freifunk-bs.de">
       	</div>
       	<div class="col-md-12 panel">
      		<img class="img-responsive center-block" src="assets/images/fw841.jpg" alt="tp-link-tl-wr841n-nd">
         </div>
-        <p>Hier musst du nun die zu deinem Router passende Version auswählen und herunter laden. Die Version deines Routers findest du auf der Unterseite deines Routers.</p>
+        <p>Hier musst du nun die zu deinem Router passende Version auswählen und herunterladen. Die Version deines Routers findest du auf der Unterseite des Geräts.</p>
         <div class="col-md-12 panel licensed-image">
   	 		<img class="img-responsive center-block"  src="assets/images/version.jpg" height="271" alt="Version">
          <div class="license">
@@ -35,9 +32,9 @@
          <div class="col-md-12 panel">
          	<img class="img-responsive center-block" src="assets/images/upgrade.png" width="634" height="203" alt="Upgrade Button">
          </div>
-         <p>Dein Router installiert nun die Freifunk Firmware und startet danach automatisch neu.<br>
-          Beim ersten Start mit der Freifunk Firmware lädt dein Router einen Konfigurationsmodus. Dein Router ist nun wieder unter <a href="http://192.168.1.1">192.168.1.1</a> zu erreichen.<br>
-          	In der Weboberfläche kannst du deinem Freifunk Router einen Namen geben.</p>
+         <p>Dein Router installiert nun die Freifunk-Firmware und startet danach automatisch neu.<br>
+          Beim ersten Start mit der Freifunk-Firmware lädt dein Router einen Konfigurationsmodus, der nun unter <a href="http://192.168.1.1">192.168.1.1</a> zu erreichen ist.<br>
+          	In der Weboberfläche kannst du deinem Freifunk-Router einen Namen geben.</p>
           <div class="col-md-12 panel">
           	<img class="img-responsive center-block" src="assets/images/ffname.png" width="873" height="386" alt="LuCi Knotenname">
           </div>
@@ -45,11 +42,11 @@
           <div class="col-md-12 panel">
           	<img class="img-responsive center-block" src="assets/images/ffshare.png" width="873" height="448" alt="LuCi Share">
           </div>
-          <p>Wenn dein Freifunk Router auf der Karte erscheinen soll. Musst du hier deine <a href="http://gpso.de/maps/">Koordinaten</a> eintragen.</p>
+          <p>Wenn dein Freifunk-Router auf der Karte erscheinen soll musst du hier deine <a href="http://gpso.de/maps/">Koordinaten</a> eintragen.</p>
           <div class="col-md-12 panel">
           	<img class="img-responsive center-block" src="assets/images/ffkoord.png" width="873" height="368" alt="LuCi Map">
           </div>
-          <p>Abschließen trägts du noch eine Kontakt E-Mail Adresse ein und klickst auf &quot;Speichern &amp; Neustarten&quot;.</p>
+          <p>Abschließen trägts du noch eine Kontakt E-Mail-Adresse ein und klickst auf &quot;Speichern &amp; Neustarten&quot;.</p>
           <div class="col-md-12 panel">
           	<img class="img-responsive center-block" src="assets/images/ffmail.png" width="873" height="322" alt="LuCi Mail">
           </div>
@@ -69,7 +66,7 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-12 col-sm-12">
-   		<p>Am besten stellst du deinen Freifunk Router nun noch so auf, dass er möglichst gut von anderen erreicht werden kann. </p>
+   		<p>Am besten stellst du deinen Freifunk-Router nun noch so auf, dass er möglichst gut von anderen erreicht werden kann. </p>
       		<div class="col-md-12 panel  licensed-image">
       			<img class="img-responsive center-block" src="assets/images/fenster.jpg" alt="FFfenster">
             <div class="license">
