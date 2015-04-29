@@ -12,7 +12,7 @@
     <div class="col-md-4">
       <h1>Für ein freies Netz</h1>
       <p>
-      Das Projekt Freifunk Braunschweig baut ein regionales Datennetz mit WLAN-Geräten, den sogenannten Knoten, auf. Die Nutzung ist dabei frei von Kosten und Registrierung sowie Erfassung von personenbezogenen Informationen.
+      Das Projekt Freifunk Braunschweig baut ein regionales Datennetz mit WLAN-Geräten, den sogenannten Knoten, auf. Die Nutzung ist kostenlos, es ist keine Registrierung notwendig und es werden keine personenbezogenen Daten erfasst.
       </p>
       <a class="btn btn-primary btn-lg btn-block" href="/auswahl.html">Mach jetzt bei Freifunk mit!</a>
 			<hr>
@@ -70,7 +70,7 @@
         <div class="panel-heading">Was ist Freifunk ?</div>
         <div class="panel-body">
           Freifunk ist ein Projekt, das versucht ein regionales Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Region ermöglichen. Jedes WLAN-fähige Gerät, also beispielsweise Handy oder Notebook,
-          kann sich mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung.
+          kann sich mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. In der Regel steht über das Netz auch ein Zugang ins Internet zur Verfügung.
         </div>
       </div>
     </div>
