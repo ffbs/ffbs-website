@@ -46,7 +46,7 @@
     <div class="col-md-6">
         <div class="panel panel-default">
 					<legend class="text-center header">Unser Büro</legend>
-          <div class="panel-body text-center">
+          <div class="panel-body text-center" style="padding-top: 0px">
             <h4>Adresse</h4>
 
             Stratum 0 e.V. <br>
