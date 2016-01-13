@@ -30,6 +30,10 @@
       </div>
     </div>
     <hr>
+    <p>
+      Unterstützt durch <a href="https://freifunk-rheinland.net/">Freifunk Rheinland</a>
+      <img src="/assets/images/ffrhein_logo_claim_line_4c_tiny.svg"></img>
+    </p>
   </div>
 </footer>
 <script src="/js/jquery-2.1.1.min.js"></script>
