@@ -24,6 +24,8 @@
 			<p>Die Schlüsselinformationen sollten so eingetragen werden:</p>
 			<!-- totally a random key... -->
 			<pre># Beispiel # beispiel@freifunk-bs.de<br>70e9157d98c9780c27ea17e95e27885997cf321225050f397f0fa82ac1733639</pre>
+			<p>oder ohne Kontaktdaten so:
+			<pre># Beispiel # <br>70e9157d98c9780c27ea17e95e27885997cf321225050f397f0fa82ac1733639</pre>
 		</div>
 	</div>
 </div>
@@ -43,6 +45,9 @@ $(function () {
 		}, 'json')
 	return false
 	});
+	if (document.location.hash !== '') {
+		$('#key').val(decodeURIComponent(document.location.hash));
+	}
 });
 </script>
 </body>
