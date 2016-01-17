@@ -34,7 +34,7 @@
           <li role="presentation"><a role="menuitem" tabindex="-1" href="/karte.html#14/52.1438/10.7725">Sch&ouml;ppenstedt</a></li>
           <li role="presentation"><a role="menuitem" tabindex="-1" href="/karte.html#13/52.1415/10.9634">Sch&ouml;ningen</a></li>
           <li role="presentation"><a role="menuitem" tabindex="-1" href="/karte.html#12/52.4266/10.7834">Wolfsburg</a></li>
-					<li role="presentation"><a role="menuitem" tabindex="-1" href="//map.freifunk-bs.de">Graph</a></li>
+					<li role="presentation"><a role="menuitem" tabindex="-1" href="//map.freifunk-bs.de#!v:g">Graph</a></li>
         </ul>
         </li>
         <li>
