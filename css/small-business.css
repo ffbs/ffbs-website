@@ -14,10 +14,15 @@ footer {
 
 @media(min-width:768px) {
     body {
+        padding-top: 130px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+}
+@media(min-width:992px) {
+    body {
         padding-top: 90px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 }
-@media(min-width:994px) {
+@media(min-width:1200px) {
     body {
         padding-top: 50px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
