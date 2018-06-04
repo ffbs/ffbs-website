@@ -14,13 +14,13 @@
       <p>
       Das Projekt Freifunk Braunschweig baut ein regionales Datennetz mit WLAN-Geräten, den sogenannten Knoten, auf. Die Nutzung ist kostenlos, es ist keine Registrierung notwendig und es werden keine personenbezogenen Daten erfasst.
       </p>
-      <a class="btn btn-primary btn-lg btn-block" href="/auswahl.html">Mach jetzt bei Freifunk mit!</a>
+      <!--<a class="btn btn-primary btn-lg btn-block" href="/auswahl.html">Mach jetzt bei Freifunk mit!</a>-->
 			<hr>
 			<h1>N&auml;chstes Treffen</h1>
 			<p>
 			Mittwochs ab 19 Uhr im <a href="https://stratum0.org/wiki/Anfahrt" title="Anfahrt">Stratum 0</a>.<br>
 			<!-- Emantor eingefügt am 31.3.2015 -->
-			<!--<font color="#FF0000">Am 1.4.2015 findet kein Treffen statt!</font><br> -->
+			<!-- <font color="#FF0000">Das nächste Freifunktreffen findet am 04.01.2017 statt, wir wünschen frohe Feiertage und einen guten Rutsch. Und natürlich immer eine gute Anbindung ;)</font><br> -->
 			<!-- Ende [Emantor, 31.3.2015] -->
 			Zunächst Freifunk-Sprechstunde für Gäste und Interessierte. Anschließend Technik-Workshop.
 			</p>
