@@ -6,7 +6,7 @@
         <div class="col-md-3">
           <ul class="nav nav-pills nav-stacked">
             <li><a href="/">Hauptseite</a></li>
-            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="https://stratum0.org/blog/categories/freifunk/">Blog</a></li>
           </ul>
         </div>
         <div class="col-md-3">
@@ -18,7 +18,7 @@
         <div class="col-md-3">
           <ul class="nav nav-pills nav-stacked">
             <li><a href="https://wiki.freifunk-bs.de/">Wiki</a></li>
-            <li><a href="/auswahl.html">Mitmachen</a></li>
+            <li><a href="/plot.html">Statistik</a></li>
           </ul>
         </div>
         <div class="col-md-3">
