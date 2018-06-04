@@ -16,7 +16,7 @@
 			<form class="form" id="keyform" method="POST" action="/newkey">
 				<fieldset>
 					<textarea id="key" name="key" cols="50" rows="2" class="span6"></textarea><br><br>
-					<input type="submit" value="absenden" class="btn btn-primary pull-right">
+					<input type="submit" value="Absenden" class="btn btn-primary pull-right">
 				</fieldset>
 			</form>
 		</div>
