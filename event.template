@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+{{head}}
+<body>
+{{nav}}
+<!-- Navigation -->
+<div class="container">
+  <div class="page-header">
+    <h1>Event WLAN
+      <small>Freifunk für Veranstaltungen</small>
+    </h1>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-sm-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">Was ist das Event WLAN?</div>
+        <div class="panel-body">
+        Das Event WLAN ist eine Zusammenstellung von Accesspoints, Kabeln und
+        einem Server. Damit sind wir in der Lage Veranstaltungen mit über
+        100 Geräten mit kabellosem Internetzugang zu versorgen.<br>
+        Das Event WLAN wurde mit <a href="https://stratum0.org/blog/posts/2018/06/01/freifunk-event-wlan/">
+        findanzieller Hilfe</a> der Stadt Braunschweig angeschafft. Wir können
+        es daher kulturell ausgerichteten Veranstaltungen in der Region
+        Braunschweig unentgeldlich zur Verfügung stellen.
+        Dieses Angebot zielt auf Veranstaltungen zwischen einem und zehn Tagen
+        dauer.<br>
+        Die folgende Liste gibt einen Überblick über die vorhandenen Geräte:
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row pricing-table">
+    <div class="col-xs-12 col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          Outdoor Accesoints
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="the-price">
+            <h1>
+            Unifi UAP AC-M-Pro
+            </h1>
+            <small><em>Für viele Clients</em></small>
+          </div>
+          <table class="table">
+            <tr class="active">
+              <td>
+              Anzahl: 5 Geräte
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Für je bis zu 100 Clientes
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="panel-footer">
+             Zum Versorgen vieler Clients auf engem Raum oder zum
+             Anbinen einer größeren Fläche in Kombination mit Unifi UAP AC-M.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          Outdoor Mesh
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="the-price">
+            <h1>
+            Unifi UAP AC-M
+            </h1>
+            <small><em>Für große Flächen</em></small>
+          </div>
+          <table class="table">
+            <tr class="active">
+              <td>
+              Anzahl: 7 Geräte
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Für je bis zu 50 Clients im Mesh bei Anwendungen mit wenig
+              Bandbreite.
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="panel-footer">
+             Zum Vergrößern der Reichweite in Kombination mit einem Unifi UAP
+             AC-M-Pro.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          Indoor Accesspoints
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="the-price">
+            <h1>
+            Unifi UAP AC-Pro
+            </h1>
+            <small><em>Versorgung im Innenbereich</em></small>
+          </div>
+          <table class="table">
+            <tr class="active">
+              <td>
+              Anzahl: 8 Geräte
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Für je bis zu 100 Clients
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="panel-footer">
+             Versorgung im Innenbereich, z.B. in Vortragsräumen.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row pricing-table">
+
+    <div class="col-xs-12 col-md-4">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          Infrastruktur
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="the-price">
+            <h1>
+            PC Engines - APU2C4
+            </h1>
+            <small><em>Lüfterloser Kleinstserver</em></small>
+          </div>
+          <table class="table">
+            <tr class="active">
+              <td>
+              Tragbarer Controller für bestes WLAN
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Management mit Browser oder Smartphone
+              </td>
+            </tr>
+            <tr class="active">
+              <td>
+              Öffentliche Statistiken
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="panel-footer">
+        Der Server bildet vor Ort die Zentrale für das Netzwerk.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          Infrastruktur
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="the-price">
+            <h1>
+            Netzwerk-Switche
+            </h1>
+            <small><em>Lüfterlos, Managed, PoE-fähig</em></small>
+          </div>
+          <table class="table">
+            <tr class="active">
+              <td>
+              Anzahl: 3 Switche
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Je 6 Ports für Accesspoints, 1 Port für Clients, 1 Port zum
+                Anschließen eines Uplinks, 2 Glasfaserports für größere Strecken.
+              </td>
+            </tr>
+            <tr class="active">
+              <td>
+              Über 100 m Netzwerkkabel
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="panel-footer">
+        Diese Technik verteilt dein Netzwerk bis zu den Accesspoints.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+          Infrastruktur
+          </h3>
+        </div>
+        <div class="panel-body">
+          <div class="the-price">
+            <h1>
+            LTE-Modem 
+            </h1>
+            <small><em>Uplink für Orte ohne DSL</em></small>
+          </div>
+          <table class="table">
+            <tr class="active">
+              <td>
+              PoE-fähiges LTE-Modem nach aktuellem Standard
+              </td>
+            </tr>
+            <tr>
+              <td>
+              Eine SIM-Karte liegt leider nicht bei.
+              </td>
+            </tr>
+            <tr class="active">
+              <td>
+              Uplink über einen vorhandenen DSL-Anschluss oder besseres
+              ist zu bevorzugen.
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="panel-footer">
+        Für Internet im Park oder bei mobilen Veranstaltungen.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="well text-center">
+        <b>Falls du Freifunk auf deiner Veranstaltung nutzen möchtest kannst
+        du uns über <a href="/kontakt.html">Kontakt</a> kontaktieren. Wir
+        setzen uns dann mit dir in Verbindungen und klären alles weitere.</b>
+      </div>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <hr>
+</div>
+      <div class="col-xs-12 col-md-4">
+      </div>
+    </div>
+  </div>
+</div>
+{{footer}}
+</body>
+
+
+<!--
+- bedingungen: ausgerichtet auf kulturell,
+               in der Region Braunschweig,
+               Veranstaltungen bis zu 1 Woche,
+- fotos:
+-->

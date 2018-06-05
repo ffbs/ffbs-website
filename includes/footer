@@ -11,19 +11,19 @@
         </div>
         <div class="col-md-3">
           <ul class="nav nav-pills nav-stacked">
+            <li><a href="https://wiki.freifunk-bs.de/">Wiki</a></li>
+            <li><a href="http://lists.freifunk.net/mailman/listinfo/braunschweig-freifunk.net">Mailinglist</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked">
             <li><a href="/irc.html">IRC</a></li>
             <li><a href="https://twitter.com/freifunk_bs">Twitter</a></li>
           </ul>
         </div>
         <div class="col-md-3">
           <ul class="nav nav-pills nav-stacked">
-            <li><a href="https://wiki.freifunk-bs.de/">Wiki</a></li>
-            <li><a href="/plot.html">Statistik</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <ul class="nav nav-pills nav-stacked">
-            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/event.html">Event WLAN</a></li>
             <li><a href="/impressum.html">Impressum</a></li>
           </ul>
         </div>
